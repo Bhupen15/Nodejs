@@ -10,11 +10,11 @@ const main = async () => {
     });
   
   
-    const ProductModel =  mongoose.model('node-bhupen', ProductSchema);
+    const ProductModel123 =  mongoose.model('node-bhupen', ProductSchema);
 
     
 
-    let data = new ProductModel({ brand: "Micromax", price: 1000 });
+    let data = new ProductModel123({ brand: "Micromax", price: 1000 });
     console.log(typeof data);
     let result = await data.save();
     console.log(result);
